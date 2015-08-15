@@ -1,17 +1,17 @@
 fileFormatVersion: 2
 guid: 171c7722c02e28d45a46905c14441877
-timeCreated: 1439602376
+timeCreated: 1439611827
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: enemies_0
+    21300000: enemies_7
     21300002: enemies_1
-    21300004: enemies_2
-    21300006: enemies_3
-    21300008: enemies_4
-    21300010: enemies_5
-    21300012: enemies_6
-    21300014: enemies_7
+    21300004: enemies_5
+    21300006: enemies_2
+    21300008: enemies_3
+    21300010: enemies_6
+    21300012: enemies_0
+    21300014: enemies_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -57,85 +57,85 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: enemies_0
+    - name: enemies_7
       rect:
         serializedVersion: 2
-        x: 7
-        y: 11
-        width: 43
-        height: 33
+        x: 6
+        y: 353
+        width: 42
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 10
+        x: 13
+        y: 302
         width: 35
-        height: 34
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: enemies_2
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 6
-        width: 41
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: enemies_3
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 9
-        width: 43
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: enemies_4
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 7
-        width: 35
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 9
-        width: 33
-        height: 39
+        x: 7
+        y: 255
+        width: 39
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 207
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 150
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: enemies_6
       rect:
         serializedVersion: 2
-        x: 302
-        y: 7
-        width: 35
-        height: 35
+        x: 2
+        y: 100
+        width: 47
+        height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: enemies_7
+    - name: enemies_0
       rect:
         serializedVersion: 2
-        x: 354
-        y: 8
-        width: 59
-        height: 42
+        x: 11
+        y: 55
+        width: 34
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemies_4
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 7
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
