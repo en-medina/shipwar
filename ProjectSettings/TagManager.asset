@@ -50,3 +50,6 @@ TagManager:
   - name: enemy
     uniqueID: 3743626329
     locked: 0
+  - name: border
+    uniqueID: 2277713399
+    locked: 0
