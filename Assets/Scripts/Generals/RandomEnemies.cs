@@ -5,11 +5,11 @@ public class RandomEnemies : MonoBehaviour
 {
     
     public float TimePerEnemies = 5f;
+    public int MaximiumEnemies = 1;
     public GameObject[] EnemiesObject;
 
-    private const int MaximiumEnemies = 1;
-    private const int ShipsAmount = 4;
 
+    private const int ShipsAmount = 4;
     private float Timer = 0f;
     private GameObject AccObject;
     private Vector3 LaunchEnemies = new Vector3(16f, 0f, 0f);
