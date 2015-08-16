@@ -12,9 +12,9 @@ public class RandomEnemies : MonoBehaviour
     private const int ShipsAmount = 4;
     private float Timer = 0f;
     private GameObject AccObject;
-    private Vector3 LaunchEnemies = new Vector3(16f, 0f, 0f);
-    private float[] YPositions = { 2.5f, 0.5f, -1.5f, -3.5f };
-    
+    private Vector3 LaunchEnemies = new Vector3(31f, 0f, 0f);
+    private float[] YPositions = { 10.6f, 4.6f, -1.4f, -7.4f };
+    private float DificultCounter =0f;
     void Awake()
     {
     
@@ -29,8 +29,12 @@ public class RandomEnemies : MonoBehaviour
     {
         if(Timer<0)
         {
-            Timer = TimePerEnemies;
+            if (TimePerEnemies - DificultCounter > 0.7f)
+                Timer = TimePerEnemies - DificultCounter;
+            else
+                Timer = 0.7f;
             TimeToAttack();
+            DificultCounter += 0.03f;
         }
         Timer -= Time.deltaTime;
     }
