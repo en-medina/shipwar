@@ -11,13 +11,13 @@ public class ShipsGear : MonoBehaviour {
     public GameObject AmmoPrefabs;
 
 
-    private Controllers ShipsController;
+    private TouchControllers ShipsController;
     private GameObject Ammo;
     private float PreviousShootCoolDown = 0f;
    
     void Awake()
     {
-        ShipsController = GameObject.FindGameObjectWithTag(Tags.GameGear).GetComponent<Controllers>();
+        ShipsController = GameObject.FindGameObjectWithTag(Tags.GameGear).GetComponent<TouchControllers>();
     }
 
 	// Use this for initialization
@@ -29,9 +29,11 @@ public class ShipsGear : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        if (ShipsController.Shoot[PositionID-1]&&PreviousShootCoolDown<=0)
+        if (ShipsController.Shoot[PositionID - 1] && PreviousShootCoolDown <= 0)
+        {
+            ShipsController.Shoot[PositionID - 1] = false;
             Shoot();
-
+        }
         if (PreviousShootCoolDown > 0)
             PreviousShootCoolDown -= Time.deltaTime;
 	}

@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\Generals\HasdId.cs" />
      <Compile Include="Assets\Scripts\Generals\RandomEnemies.cs" />
      <Compile Include="Assets\Scripts\Generals\Tags.cs" />
+     <Compile Include="Assets\Scripts\Generals\TouchControllers.cs" />
      <Compile Include="Assets\Scripts\PlayerAndAmmos\AmmoCollider.cs" />
      <Compile Include="Assets\Scripts\PlayerAndAmmos\AmmoGear.cs" />
      <Compile Include="Assets\Scripts\PlayerAndAmmos\ShipsGear.cs" />

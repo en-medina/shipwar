@@ -8,13 +8,17 @@ public class Controllers : MonoBehaviour {
     public KeyCode SpecialsButton = KeyCode.Q;
     public KeyCode SwapButton = KeyCode.W;
 
-    public bool[] Shoot = new bool[4];
+    //public bool[] Shoot = new bool[4];
     public bool Special;
     public bool Swap;
+    private TouchControllers Touch;
+
+    void Awake()
+    {
+        Touch = GetComponent<TouchControllers>();
+    }
     // Use this for initialization
-	void Start () {
-	
-	}
+
 	
 	// Update is called once per frame
 	void Update () 
@@ -27,9 +31,9 @@ public class Controllers : MonoBehaviour {
         for (int i = 0; i < ShootButton.Length; i++)
         {
             if (Input.GetKeyDown(ShootButton[i]))
-                Shoot[i] = true;
+                Touch.Shoot[i] = true;
             else
-                Shoot[i] = false;
+                Touch.Shoot[i] = false;
         }
         if (Input.GetKeyDown(SpecialsButton))
             Special = true;
