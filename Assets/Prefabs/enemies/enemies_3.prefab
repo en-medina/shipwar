@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21256372}
   - 114: {fileID: 11403438}
   - 61: {fileID: 6193608}
+  - 114: {fileID: 11454058}
   m_Layer: 0
   m_Name: enemies_3
   m_TagString: Untagged
@@ -55,6 +56,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!114 &11454058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 046c1e92270e3e34cb27d6e997250722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShieldPower: 4
 --- !u!212 &21256372
 SpriteRenderer:
   m_ObjectHideFlags: 1

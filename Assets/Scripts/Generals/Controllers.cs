@@ -12,10 +12,11 @@ public class Controllers : MonoBehaviour {
     public bool Special;
     public bool Swap;
     private TouchControllers Touch;
-
+    private int TouchButtonLen;
     void Awake()
     {
         Touch = GetComponent<TouchControllers>();
+        TouchButtonLen = Touch.Shoot.Length;
     }
     // Use this for initialization
 
@@ -28,12 +29,10 @@ public class Controllers : MonoBehaviour {
 
     void chk_controllers()
     {
-        for (int i = 0; i < ShootButton.Length; i++)
+        for (int i = 0; i < TouchButtonLen; i++)
         {
             if (Input.GetKeyDown(ShootButton[i]))
                 Touch.Shoot[i] = true;
-            else
-                Touch.Shoot[i] = false;
         }
         if (Input.GetKeyDown(SpecialsButton))
             Special = true;

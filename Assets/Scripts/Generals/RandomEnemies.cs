@@ -34,7 +34,7 @@ public class RandomEnemies : MonoBehaviour
             else
                 Timer = 0.7f;
             TimeToAttack();
-            DificultCounter += 0.03f;
+            DificultCounter += 0.08f;
         }
         Timer -= Time.deltaTime;
     }

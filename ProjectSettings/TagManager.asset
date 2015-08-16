@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemies
+  - AmmoCollector
   layers:
   - Default
   - TransparentFX
@@ -44,12 +46,12 @@ TagManager:
   - name: background
     uniqueID: 2848529371
     locked: 0
+  - name: ammo
+    uniqueID: 2277713399
+    locked: 0
   - name: ship
     uniqueID: 3222140327
     locked: 0
   - name: enemy
     uniqueID: 3743626329
-    locked: 0
-  - name: border
-    uniqueID: 2277713399
     locked: 0

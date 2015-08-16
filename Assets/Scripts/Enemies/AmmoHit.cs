@@ -25,6 +25,7 @@ public class AmmoHit : MonoBehaviour {
     {
         if(TheyHitMe.tag==Tags.AmmoCollector)
         {
+            Debug.Log("Here");
             Ammo = TheyHitMe.GetComponent<AmmoGear>();
             ShieldPower -= Ammo.ShootPower;
             Destroy(TheyHitMe.gameObject);

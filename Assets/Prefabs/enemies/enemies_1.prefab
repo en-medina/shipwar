@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21253896}
   - 114: {fileID: 11484470}
   - 61: {fileID: 6114490}
+  - 114: {fileID: 11440356}
   m_Layer: 0
   m_Name: enemies_1
   m_TagString: Untagged
@@ -43,6 +44,18 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 3.4000001, y: 3.5}
+--- !u!114 &11440356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 046c1e92270e3e34cb27d6e997250722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShieldPower: 4
 --- !u!114 &11484470
 MonoBehaviour:
   m_ObjectHideFlags: 1
