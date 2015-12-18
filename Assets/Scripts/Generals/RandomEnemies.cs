@@ -34,7 +34,7 @@ public class RandomEnemies : MonoBehaviour
             else
                 Timer = 0.7f;
             TimeToAttack();
-            DificultCounter += 0.08f;
+            DificultCounter += 0.05f;
         }
         Timer -= Time.deltaTime;
     }
@@ -43,7 +43,7 @@ public class RandomEnemies : MonoBehaviour
     {
         int Search = RandomGenerator(MaximiumEnemies);
         AccObject = (GameObject)Instantiate(EnemiesObject[Search], transform.position, transform.rotation);
-        AccObject.transform.parent = transform.parent;
+        AccObject.transform.parent = transform;
         LaunchEnemies.y = YPositions[RandomGenerator(ShipsAmount)];
         AccObject.transform.position = transform.position + LaunchEnemies;
     }

@@ -46,19 +46,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Controllers.cs" />
      <Compile Include="Assets\Scripts\Enemies\AmmoHit.cs" />
      <Compile Include="Assets\Scripts\Enemies\ForwardMove.cs" />
+     <Compile Include="Assets\Scripts\Enemies\GoAndRotate.cs" />
      <Compile Include="Assets\Scripts\Enemies\VolatileOrb.cs" />
      <Compile Include="Assets\Scripts\Enemies\VolatileOrbCore.cs" />
      <Compile Include="Assets\Scripts\Generals\BasicMovements.cs" />
-     <Compile Include="Assets\Scripts\Generals\Controllers.cs" />
      <Compile Include="Assets\Scripts\Generals\HasdId.cs" />
      <Compile Include="Assets\Scripts\Generals\RandomEnemies.cs" />
+     <Compile Include="Assets\Scripts\Generals\SwapShips.cs" />
      <Compile Include="Assets\Scripts\Generals\Tags.cs" />
      <Compile Include="Assets\Scripts\Generals\TouchControllers.cs" />
+     <Compile Include="Assets\Scripts\Generals\TouchProve.cs" />
      <Compile Include="Assets\Scripts\PlayerAndAmmos\AmmoCollider.cs" />
      <Compile Include="Assets\Scripts\PlayerAndAmmos\AmmoGear.cs" />
      <Compile Include="Assets\Scripts\PlayerAndAmmos\ShipsGear.cs" />
+     <None Include="Assets\New folder\buttonConfigure.txt" />
+     <None Include="Assets\Scripts\Dabutton.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

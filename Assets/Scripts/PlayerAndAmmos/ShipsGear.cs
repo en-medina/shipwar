@@ -14,7 +14,6 @@ public class ShipsGear : MonoBehaviour {
     private TouchControllers ShipsController;
     private GameObject Ammo;
     private float PreviousShootCoolDown = 0f;
-   
     void Awake()
     {
         ShipsController = GameObject.FindGameObjectWithTag(Tags.GameGear).GetComponent<TouchControllers>();
@@ -41,7 +40,7 @@ public class ShipsGear : MonoBehaviour {
     void Shoot()
     {
         Ammo = (GameObject)Instantiate(AmmoPrefabs, transform.position, transform.rotation);
-        Ammo.transform.parent = transform;
+        Ammo.transform.parent = transform.parent;
         Ammo.transform.position = AmmoStartPosition + transform.position;
         PreviousShootCoolDown = CoolDown;
     }
